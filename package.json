@@ -1,0 +1,21 @@
+{
+  "name": "dippr_stream",
+  "version": "0.0.1",
+  "description": "The streaming server for dippr",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "K. Deary / ParretLabs",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-fetch": "^2.6.1",
+    "ws": "^7.4.6"
+  }
+}
